@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* npx tailwindcss -i ./css/tailwind.css -c ./tailwind.config.js -o ./dist/tailwind.css */

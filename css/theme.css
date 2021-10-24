@@ -1,0 +1,6 @@
+:root {
+	--primary: #fca311;
+	--secondary: #14213d;
+	--muted: #c3c3c3;
+	--bezier: cubic-bezier(0.53, 0.21, 0, 1);
+}
