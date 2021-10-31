@@ -3,7 +3,7 @@ body {
 }
 
 html {
-	background-image: url('/img/dot-grid.png');
+	background-image: url('../img/dot-grid.png');
 }
 
 .button {
