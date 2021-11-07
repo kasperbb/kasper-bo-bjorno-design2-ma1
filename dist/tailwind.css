@@ -1,4 +1,4 @@
-/*! tailwindcss v2.2.17 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -22662,6 +22662,10 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-cta {
+  font-family: Open Sans Condensed, sans-serif;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -32783,6 +32787,8 @@ video {
 .content-none {
   content: none;
 }
+
+/* npx tailwindcss -i ./css/tailwind.css -c ./tailwind.config.js -o ./dist/tailwind.css */
 
 @media (min-width: 640px) {
   .sm\:container {
@@ -54779,6 +54785,10 @@ video {
 
   .sm\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-cta {
+    font-family: Open Sans Condensed, sans-serif;
   }
 
   .sm\:text-xs {
@@ -86536,6 +86546,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-cta {
+    font-family: Open Sans Condensed, sans-serif;
+  }
+
   .md\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -118289,6 +118303,10 @@ video {
 
   .lg\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .lg\:font-cta {
+    font-family: Open Sans Condensed, sans-serif;
   }
 
   .lg\:text-xs {
@@ -150046,6 +150064,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-cta {
+    font-family: Open Sans Condensed, sans-serif;
+  }
+
   .xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -181799,6 +181821,10 @@ video {
 
   .\32xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-cta {
+    font-family: Open Sans Condensed, sans-serif;
   }
 
   .\32xl\:text-xs {

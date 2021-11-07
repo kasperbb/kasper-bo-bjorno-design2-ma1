@@ -6,12 +6,25 @@ html {
 	background-image: url('../img/dot-grid.png');
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+
 .button {
 	overflow: hidden;
 	padding: 12px 24px;
 	background-color: var(--primary);
 	color: white;
-	font-weight: 500;
+	font-weight: 700;
 	text-transform: uppercase;
 	position: relative;
 	display: inline-block;
